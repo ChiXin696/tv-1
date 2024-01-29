@@ -24,7 +24,6 @@ jobs:
 
       - name: Install dependencies
         run: pip install selenium requests futures opencv-python
-
       - name: Install Chrome WebDriver
         run: |
           LATEST_CHROMEDRIVER_VERSION=120.0.6099.109
